@@ -9,7 +9,9 @@ Otherwise, you can clone the OpenHands project directly.
 * [Docker](https://docs.docker.com/engine/install/) (For those on MacOS, make sure to allow the default Docker socket to be used from advanced settings!)
 * [Python](https://www.python.org/downloads/) = 3.12
 * [NodeJS](https://nodejs.org/en/download/package-manager) >= 18.17.1
+    Linux : "sudo apt install nodejs npm"
 * [Poetry](https://python-poetry.org/docs/#installing-with-the-official-installer) >= 1.8
+    Linux / Mac : "curl -sSL https://install.python-poetry.org | python3 -"
 * netcat => sudo apt-get install netcat
 
 Make sure you have all these dependencies installed before moving on to `make build`.
